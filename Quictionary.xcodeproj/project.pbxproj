@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A918A1A529C8E01A00967A4A /* StudyListSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918A1A429C8E01A00967A4A /* StudyListSelectionView.swift */; };
+		A922B053298DB45C00E996C6 /* QuictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B052298DB45C00E996C6 /* QuictionaryApp.swift */; };
+		A922B055298DB45C00E996C6 /* BrowseListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B054298DB45C00E996C6 /* BrowseListsView.swift */; };
+		A922B057298DB46100E996C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A922B056298DB46100E996C6 /* Assets.xcassets */; };
+		A922B05A298DB46100E996C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A922B059298DB46100E996C6 /* Preview Assets.xcassets */; };
+		A922B05C298DB46100E996C6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B05B298DB46100E996C6 /* Persistence.swift */; };
+		A922B05F298DB46100E996C6 /* Quictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A922B05D298DB46100E996C6 /* Quictionary.xcdatamodeld */; };
+		A922B069298DB46100E996C6 /* QuictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B068298DB46100E996C6 /* QuictionaryTests.swift */; };
+		A922B073298DB46100E996C6 /* QuictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B072298DB46100E996C6 /* QuictionaryUITests.swift */; };
+		A922B075298DB46100E996C6 /* QuictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A922B074298DB46100E996C6 /* QuictionaryUITestsLaunchTests.swift */; };
+		A93332E929F9A56400D89E9A /* EntryMetricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93332E829F9A56400D89E9A /* EntryMetricCell.swift */; };
+		A9872BFB29F6ED5C00E06053 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9872BFA29F6ED5C00E06053 /* EntryCell.swift */; };
+		A9A05FBC29D362F6003EFB0C /* StudyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A05FBB29D362F6003EFB0C /* StudyDashboardView.swift */; };
+		A9A72B2229A57B0F003FAD08 /* DictionaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A72B2129A57B0F003FAD08 /* DictionaryController.swift */; };
+		A9B5252B29BA964E00023D3C /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B5252A29BA964E00023D3C /* EntryView.swift */; };
+		A9B7FF3B29F8C9450079A2D4 /* ParsedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7FF3A29F8C9450079A2D4 /* ParsedEntry.swift */; };
+		A9B7FF3E29F8CC380079A2D4 /* it-en.json in Resources */ = {isa = PBXBuildFile; fileRef = A9B7FF3D29F8CC380079A2D4 /* it-en.json */; };
+		A9B7FF4029F8E2340079A2D4 /* StudyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7FF3F29F8E2340079A2D4 /* StudyListCell.swift */; };
+		A9C29B9629D34FBE0014D4A4 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C29B9529D34FBE0014D4A4 /* StudyView.swift */; };
+		A9C29B9829D352080014D4A4 /* StudyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C29B9729D352080014D4A4 /* StudyCard.swift */; };
+		A9D3A34329AFE39500A9C663 /* EntrySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3A34229AFE39500A9C663 /* EntrySearchView.swift */; };
+		A9D3A34529AFE58800A9C663 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3A34429AFE58800A9C663 /* TabBarView.swift */; };
+		A9DA654829DDFC7100DAEA2E /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA654729DDFC7100DAEA2E /* Status.swift */; };
+		A9DFBAB929A01E7900E43FF8 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFBAB829A01E7900E43FF8 /* DictionaryModel.swift */; };
+		A9E2706229F7819300257A1E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E2706129F7819300257A1E /* Color.swift */; };
+		A9EDCB7329A7ECB2005B5321 /* StudyListEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EDCB7229A7ECB1005B5321 /* StudyListEditView.swift */; };
+		A9F1FC4429ADADD300F1755C /* StudyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1FC4329ADADD300F1755C /* StudyListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A922B065298DB46100E996C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A922B047298DB45C00E996C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A922B04E298DB45C00E996C6;
+			remoteInfo = Quictionary;
+		};
+		A922B06F298DB46100E996C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A922B047298DB45C00E996C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A922B04E298DB45C00E996C6;
+			remoteInfo = Quictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A918A1A429C8E01A00967A4A /* StudyListSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyListSelectionView.swift; sourceTree = "<group>"; };
+		A922B04F298DB45C00E996C6 /* Quictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922B052298DB45C00E996C6 /* QuictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuictionaryApp.swift; sourceTree = "<group>"; };
+		A922B054298DB45C00E996C6 /* BrowseListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseListsView.swift; sourceTree = "<group>"; };
+		A922B056298DB46100E996C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A922B059298DB46100E996C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A922B05B298DB46100E996C6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A922B05E298DB46100E996C6 /* Quictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quictionary.xcdatamodel; sourceTree = "<group>"; };
+		A922B064298DB46100E996C6 /* QuictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922B068298DB46100E996C6 /* QuictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuictionaryTests.swift; sourceTree = "<group>"; };
+		A922B06E298DB46100E996C6 /* QuictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922B072298DB46100E996C6 /* QuictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuictionaryUITests.swift; sourceTree = "<group>"; };
+		A922B074298DB46100E996C6 /* QuictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A93332E829F9A56400D89E9A /* EntryMetricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryMetricCell.swift; sourceTree = "<group>"; };
+		A9872BFA29F6ED5C00E06053 /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		A9A05FBB29D362F6003EFB0C /* StudyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyDashboardView.swift; sourceTree = "<group>"; };
+		A9A72B2129A57B0F003FAD08 /* DictionaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryController.swift; sourceTree = "<group>"; };
+		A9B5252A29BA964E00023D3C /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		A9B7FF3A29F8C9450079A2D4 /* ParsedEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedEntry.swift; sourceTree = "<group>"; };
+		A9B7FF3D29F8CC380079A2D4 /* it-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "it-en.json"; path = "../../../../Downloads/it-en.json"; sourceTree = "<group>"; };
+		A9B7FF3F29F8E2340079A2D4 /* StudyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyListCell.swift; sourceTree = "<group>"; };
+		A9C29B9529D34FBE0014D4A4 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		A9C29B9729D352080014D4A4 /* StudyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCard.swift; sourceTree = "<group>"; };
+		A9D3A34229AFE39500A9C663 /* EntrySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrySearchView.swift; sourceTree = "<group>"; };
+		A9D3A34429AFE58800A9C663 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A9DA654729DDFC7100DAEA2E /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		A9DFBAB829A01E7900E43FF8 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
+		A9E2706129F7819300257A1E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A9EDCB7229A7ECB1005B5321 /* StudyListEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyListEditView.swift; sourceTree = "<group>"; };
+		A9F1FC4329ADADD300F1755C /* StudyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A922B04C298DB45C00E996C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B061298DB46100E996C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B06B298DB46100E996C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A922B046298DB45C00E996C6 = {
+			isa = PBXGroup;
+			children = (
+				A922B051298DB45C00E996C6 /* Quictionary */,
+				A922B067298DB46100E996C6 /* QuictionaryTests */,
+				A922B071298DB46100E996C6 /* QuictionaryUITests */,
+				A922B050298DB45C00E996C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A922B050298DB45C00E996C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A922B04F298DB45C00E996C6 /* Quictionary.app */,
+				A922B064298DB46100E996C6 /* QuictionaryTests.xctest */,
+				A922B06E298DB46100E996C6 /* QuictionaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A922B051298DB45C00E996C6 /* Quictionary */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7FF3C29F8CC1F0079A2D4 /* JSON Data */,
+				A9E2706029F7817D00257A1E /* Extensions */,
+				A9A72B2029A57AFC003FAD08 /* Controller */,
+				A9F7C58D2993047C00863A5E /* Model */,
+				A9F7C58C2993046000863A5E /* Views */,
+				A922B052298DB45C00E996C6 /* QuictionaryApp.swift */,
+				A922B056298DB46100E996C6 /* Assets.xcassets */,
+				A922B05D298DB46100E996C6 /* Quictionary.xcdatamodeld */,
+				A922B058298DB46100E996C6 /* Preview Content */,
+			);
+			path = Quictionary;
+			sourceTree = "<group>";
+		};
+		A922B058298DB46100E996C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A922B059298DB46100E996C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A922B067298DB46100E996C6 /* QuictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A922B068298DB46100E996C6 /* QuictionaryTests.swift */,
+			);
+			path = QuictionaryTests;
+			sourceTree = "<group>";
+		};
+		A922B071298DB46100E996C6 /* QuictionaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A922B072298DB46100E996C6 /* QuictionaryUITests.swift */,
+				A922B074298DB46100E996C6 /* QuictionaryUITestsLaunchTests.swift */,
+			);
+			path = QuictionaryUITests;
+			sourceTree = "<group>";
+		};
+		A9A72B2029A57AFC003FAD08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9A72B2129A57B0F003FAD08 /* DictionaryController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9B7FF3C29F8CC1F0079A2D4 /* JSON Data */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7FF3D29F8CC380079A2D4 /* it-en.json */,
+			);
+			path = "JSON Data";
+			sourceTree = "<group>";
+		};
+		A9E2706029F7817D00257A1E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9E2706129F7819300257A1E /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9F7C58C2993046000863A5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A922B054298DB45C00E996C6 /* BrowseListsView.swift */,
+				A9EDCB7229A7ECB1005B5321 /* StudyListEditView.swift */,
+				A9F1FC4329ADADD300F1755C /* StudyListView.swift */,
+				A9D3A34229AFE39500A9C663 /* EntrySearchView.swift */,
+				A9D3A34429AFE58800A9C663 /* TabBarView.swift */,
+				A9B5252A29BA964E00023D3C /* EntryView.swift */,
+				A918A1A429C8E01A00967A4A /* StudyListSelectionView.swift */,
+				A9C29B9529D34FBE0014D4A4 /* StudyView.swift */,
+				A9C29B9729D352080014D4A4 /* StudyCard.swift */,
+				A9A05FBB29D362F6003EFB0C /* StudyDashboardView.swift */,
+				A9872BFA29F6ED5C00E06053 /* EntryCell.swift */,
+				A9B7FF3F29F8E2340079A2D4 /* StudyListCell.swift */,
+				A93332E829F9A56400D89E9A /* EntryMetricCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9F7C58D2993047C00863A5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A922B05B298DB46100E996C6 /* Persistence.swift */,
+				A9DFBAB829A01E7900E43FF8 /* DictionaryModel.swift */,
+				A9DA654729DDFC7100DAEA2E /* Status.swift */,
+				A9B7FF3A29F8C9450079A2D4 /* ParsedEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A922B04E298DB45C00E996C6 /* Quictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922B078298DB46100E996C6 /* Build configuration list for PBXNativeTarget "Quictionary" */;
+			buildPhases = (
+				A922B04B298DB45C00E996C6 /* Sources */,
+				A922B04C298DB45C00E996C6 /* Frameworks */,
+				A922B04D298DB45C00E996C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quictionary;
+			productName = Quictionary;
+			productReference = A922B04F298DB45C00E996C6 /* Quictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A922B063298DB46100E996C6 /* QuictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922B07B298DB46100E996C6 /* Build configuration list for PBXNativeTarget "QuictionaryTests" */;
+			buildPhases = (
+				A922B060298DB46100E996C6 /* Sources */,
+				A922B061298DB46100E996C6 /* Frameworks */,
+				A922B062298DB46100E996C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A922B066298DB46100E996C6 /* PBXTargetDependency */,
+			);
+			name = QuictionaryTests;
+			productName = QuictionaryTests;
+			productReference = A922B064298DB46100E996C6 /* QuictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A922B06D298DB46100E996C6 /* QuictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922B07E298DB46100E996C6 /* Build configuration list for PBXNativeTarget "QuictionaryUITests" */;
+			buildPhases = (
+				A922B06A298DB46100E996C6 /* Sources */,
+				A922B06B298DB46100E996C6 /* Frameworks */,
+				A922B06C298DB46100E996C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A922B070298DB46100E996C6 /* PBXTargetDependency */,
+			);
+			name = QuictionaryUITests;
+			productName = QuictionaryUITests;
+			productReference = A922B06E298DB46100E996C6 /* QuictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A922B047298DB45C00E996C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A922B04E298DB45C00E996C6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A922B063298DB46100E996C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A922B04E298DB45C00E996C6;
+					};
+					A922B06D298DB46100E996C6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A922B04E298DB45C00E996C6;
+					};
+				};
+			};
+			buildConfigurationList = A922B04A298DB45C00E996C6 /* Build configuration list for PBXProject "Quictionary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A922B046298DB45C00E996C6;
+			productRefGroup = A922B050298DB45C00E996C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A922B04E298DB45C00E996C6 /* Quictionary */,
+				A922B063298DB46100E996C6 /* QuictionaryTests */,
+				A922B06D298DB46100E996C6 /* QuictionaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A922B04D298DB45C00E996C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B7FF3E29F8CC380079A2D4 /* it-en.json in Resources */,
+				A922B05A298DB46100E996C6 /* Preview Assets.xcassets in Resources */,
+				A922B057298DB46100E996C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B062298DB46100E996C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B06C298DB46100E996C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A922B04B298DB45C00E996C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922B05F298DB46100E996C6 /* Quictionary.xcdatamodeld in Sources */,
+				A9B5252B29BA964E00023D3C /* EntryView.swift in Sources */,
+				A9DFBAB929A01E7900E43FF8 /* DictionaryModel.swift in Sources */,
+				A9C29B9629D34FBE0014D4A4 /* StudyView.swift in Sources */,
+				A9DA654829DDFC7100DAEA2E /* Status.swift in Sources */,
+				A9D3A34329AFE39500A9C663 /* EntrySearchView.swift in Sources */,
+				A9A72B2229A57B0F003FAD08 /* DictionaryController.swift in Sources */,
+				A9F1FC4429ADADD300F1755C /* StudyListView.swift in Sources */,
+				A9EDCB7329A7ECB2005B5321 /* StudyListEditView.swift in Sources */,
+				A922B05C298DB46100E996C6 /* Persistence.swift in Sources */,
+				A918A1A529C8E01A00967A4A /* StudyListSelectionView.swift in Sources */,
+				A9B7FF4029F8E2340079A2D4 /* StudyListCell.swift in Sources */,
+				A9E2706229F7819300257A1E /* Color.swift in Sources */,
+				A922B055298DB45C00E996C6 /* BrowseListsView.swift in Sources */,
+				A9C29B9829D352080014D4A4 /* StudyCard.swift in Sources */,
+				A93332E929F9A56400D89E9A /* EntryMetricCell.swift in Sources */,
+				A9872BFB29F6ED5C00E06053 /* EntryCell.swift in Sources */,
+				A9A05FBC29D362F6003EFB0C /* StudyDashboardView.swift in Sources */,
+				A9D3A34529AFE58800A9C663 /* TabBarView.swift in Sources */,
+				A9B7FF3B29F8C9450079A2D4 /* ParsedEntry.swift in Sources */,
+				A922B053298DB45C00E996C6 /* QuictionaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B060298DB46100E996C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922B069298DB46100E996C6 /* QuictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922B06A298DB46100E996C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922B073298DB46100E996C6 /* QuictionaryUITests.swift in Sources */,
+				A922B075298DB46100E996C6 /* QuictionaryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A922B066298DB46100E996C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A922B04E298DB45C00E996C6 /* Quictionary */;
+			targetProxy = A922B065298DB46100E996C6 /* PBXContainerItemProxy */;
+		};
+		A922B070298DB46100E996C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A922B04E298DB45C00E996C6 /* Quictionary */;
+			targetProxy = A922B06F298DB46100E996C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A922B076298DB46100E996C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A922B077298DB46100E996C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A922B079298DB46100E996C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.Quictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A922B07A298DB46100E996C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quictionary/Preview Content\"";
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.Quictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A922B07C298DB46100E996C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.QuictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quictionary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quictionary";
+			};
+			name = Debug;
+		};
+		A922B07D298DB46100E996C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.QuictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quictionary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quictionary";
+			};
+			name = Release;
+		};
+		A922B07F298DB46100E996C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.QuictionaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quictionary;
+			};
+			name = Debug;
+		};
+		A922B080298DB46100E996C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V7B3CT3UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mvasquez.QuictionaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quictionary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A922B04A298DB45C00E996C6 /* Build configuration list for PBXProject "Quictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922B076298DB46100E996C6 /* Debug */,
+				A922B077298DB46100E996C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922B078298DB46100E996C6 /* Build configuration list for PBXNativeTarget "Quictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922B079298DB46100E996C6 /* Debug */,
+				A922B07A298DB46100E996C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922B07B298DB46100E996C6 /* Build configuration list for PBXNativeTarget "QuictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922B07C298DB46100E996C6 /* Debug */,
+				A922B07D298DB46100E996C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922B07E298DB46100E996C6 /* Build configuration list for PBXNativeTarget "QuictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922B07F298DB46100E996C6 /* Debug */,
+				A922B080298DB46100E996C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A922B05D298DB46100E996C6 /* Quictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A922B05E298DB46100E996C6 /* Quictionary.xcdatamodel */,
+			);
+			currentVersion = A922B05E298DB46100E996C6 /* Quictionary.xcdatamodel */;
+			path = Quictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A922B047298DB45C00E996C6 /* Project object */;
+}
