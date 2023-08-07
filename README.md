@@ -4,4 +4,4 @@ Quictionary is a powerful flashcard study tool and a multilingual dictionary com
 ![Quictionary Advertisement](https://github.com/mvasquez1-ksu/quictionary/assets/39408535/496bdcca-f8c4-4f30-a495-6956bd8e501c)
 
 Presentation:
-![https://ksuemailprod-my.sharepoint.com/:v:/g/personal/mvasquez1_ksu_edu/Ee7QNW3sBHpLrWECCMH9zZoBEWs4nxc80hIeQ6kQFV3qbQ?e=S5TQE2]
+https://ksuemailprod-my.sharepoint.com/:v:/g/personal/mvasquez1_ksu_edu/Ee7QNW3sBHpLrWECCMH9zZoBEWs4nxc80hIeQ6kQFV3qbQ?e=S5TQE2
